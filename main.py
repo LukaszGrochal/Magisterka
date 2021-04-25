@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
+from format_data import data_from_2007_to_2011, data_from_2015_to_now
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
+
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-
+    dane_stare = data_from_2007_to_2011()
+    dane_nowe = data_from_2015_to_now()
+    print(dane_nowe)
