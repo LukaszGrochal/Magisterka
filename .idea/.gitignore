@@ -2,5 +2,7 @@
 /shelf/
 /workspace.xml
 venv*
-venv\*
-\venv\*
+venv/
+/venv/
+/__pycache__/
+/__pycache__/

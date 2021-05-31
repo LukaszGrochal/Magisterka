@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-tickers = ['WIG', 'WIG20', 'PKN', 'KGH', 'plopln3m', 'TPE', 'ALE', 'TIM', 'MBK', 'PKO']
-
+# tickers = ['WIG', 'WIG20', 'PKN', 'KGH', 'plopln3m', 'TPE', 'ALE', 'TIM', 'MBK', 'PKO']
+tickers = ['WIG', 'WIG20', 'PKN', 'KGH', 'MIL', 'TPE', 'ING', 'PGN', 'MBK', 'PKO', 'BOS']
 
 def data_from_period(start, end):
     dict_of_tickers = dict()
@@ -32,6 +32,6 @@ def data_from_2015_to_now():
     return data_from_period(start=datetime(2014, 12, 30), end=datetime(2021, 4, 1))
 
 
-print(data_from_2007_to_2011())
+#print(data_from_2007_to_2011())
 
-#
+
